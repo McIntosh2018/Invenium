@@ -5,9 +5,13 @@
     padding-bottom: 1rem;
 }
 
-nav {
+ul {
     display: flex;
     justify-content: space-around;
+}
+
+li {
+    list-style: none;
 }
 
 .button {

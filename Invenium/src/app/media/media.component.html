@@ -1,1 +1,9 @@
-<p>media works!</p>
+<video width="640" height="360" controls>
+    <source src="assets/Images/Token_Lounge_1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<img *ngFor="let photo of alexisPhotos" [src]="photo" class="image">
+<img *ngFor="let photo of mattPhotos" [src]="photo" class="image">
+<img *ngFor="let photo of colinPhotos" [src]="photo" class="image">
+<img *ngFor="let photo of aidianPhotos" [src]="photo" class="image">
+<img *ngFor="let photo of groupPhotos" [src]="photo" class="image">

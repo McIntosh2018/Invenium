@@ -1,4 +1,5 @@
 #header-container {
+    width: 98%;
     display: flex;
     justify-self: center;
     justify-content: center;
@@ -7,17 +8,18 @@
 #main-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
 .column {
-    width: 25%;
-    padding: 20px;
-    border-radius: 10px;
+    width: 22%;
+    padding: 0.5%;
+    border-radius: 20px;
 /* Initially transparent border */
     /* border: 2px solid transparent; */
 /* Initially not transparent border */
-    border: 2px solid ; 
+    /* border: 2px solid ;  */
     transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
@@ -25,9 +27,4 @@
     transform: scale(1.05); /* Increase the size on hover */
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
     border-color: #007bff; /* Change border color on hover */
-}
-
-.image {
-    width: 30%;
-    height: auto;
 }

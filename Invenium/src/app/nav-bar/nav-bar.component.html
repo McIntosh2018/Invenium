@@ -3,9 +3,10 @@
         <h1>We Are Invenium!</h1>
     </div>
     <nav>
-        <a class="button" routerLink="/Home" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Home</a>
-        <a class="button" routerLink="/About" routerLinkActive="activebutton" ariaCurrentWhenActive="page">About</a>
-        <a class="button" routerLink="/Events" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Band Events</a>
-        <a class="button" routerLink="/Media" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Photos and More!</a>
-    </nav>
+        <ul>
+          <li *ngFor="let item of navItems">
+            <a [routerLink]="item.route" routerLinkActive="active" class="button">{{ item.name }}</a>
+          </li>
+        </ul>
+      </nav>
 </div>
