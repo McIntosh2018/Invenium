@@ -1,3 +1,14 @@
+#main-container {
+    width: 98vw;
+    position: fixed;
+    bottom: 0;
+    padding-top: 0.75%;
+
+    border-radius: 10px; /* Adjust the value to change the roundness */
+    background-color: lightgrey; /* Set the background color */
+    padding: 0.5%; /* Add padding for content */
+}
+
 ul {
     display: flex;
     justify-content: space-evenly;
