@@ -16,7 +16,7 @@ import { MediaComponent } from "./media/media.component";
 })
 export class AppComponent {
   constructor() {
-    // console.log(environment.production);
+    console.log(environment.production);
   }
 
   title = 'Invenium';
