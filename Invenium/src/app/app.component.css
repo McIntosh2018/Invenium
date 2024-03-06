@@ -1,4 +1,5 @@
 #content-container {
     display: flex;
     flex-direction: column;
+    background: linear-gradient(to bottom, #FFD700, #A52A2A, #006400, #4682B4, #8B4513);
 }

@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+/* .mat-typography {
+    background-image: URL('./assets/Images/Group_3.jpg');
+    background-size: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+.mat-tyopgraphy {
+    background: linear-gradient(to right, #BEBD7F, #8B795E, #D2B48C);
+}
