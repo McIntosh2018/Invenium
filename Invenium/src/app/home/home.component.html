@@ -1,4 +1,9 @@
 <div id="main-container">
-    <!-- <mat-slide-toggle>Toggle me!</mat-slide-toggle> -->
-    hhome things
+    <h1 class="title">WE ARE INVENIUM</h1>
+    <div id="videos">
+        <video  controls>
+            <source *ngFor="let video of videos" [src]="video" type="video/mp4" class="video" width="75px">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 </div>

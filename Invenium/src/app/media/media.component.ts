@@ -1,13 +1,11 @@
 import { NgFor } from '@angular/common';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
-import { map } from 'rxjs/operators';
+import { Component } from '@angular/core';
 
 
 @Component({
   selector: 'app-media',
   standalone: true,
-  imports: [NgFor, HttpClientModule],
+  imports: [NgFor],
   templateUrl: './media.component.html',
   styleUrl: './media.component.css'
 })
@@ -20,15 +18,16 @@ export class MediaComponent {
   // mattPhotos: string[] = ['assets/Images/Matt_1.jpg'];
 
   allPhotos: string [] = [
-    'assets/Images/Aidan_1.jpg',
     'assets/Images/Alexis_1.jpg',
+    'assets/Images/Group_4.jpg',
+    'assets/Images/Group_3.jpg',
+    'assets/Images/Group_2.jpg',
+    'assets/Images/Matt_1.jpg',
+    'assets/Images/Aidan_1.jpg',
     'assets/Images/Colin_1.jpg',
     'assets/Images/Group_1.jpg', 
-    'assets/Images/Group_2.jpg',
-    'assets/Images/Group_3.jpg',
-    'assets/Images/Matt_1.jpg'
   ];
-  videos: string[] =['assets/Videos/Token_Lounge_1.mp4'];
+
 
 }
 

@@ -1,5 +1,6 @@
 #content-container {
     height: 100%;
+    margin-bottom: 5%;
 }
 video {
     width: 25%;
@@ -17,7 +18,13 @@ video {
 }
 
 .image:hover {
-    transform: scale(1.05); /* Increase the size on hover */
+    transform: scale(1.5); /* Increase the size on hover */
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
     border-color: #007bff; /* Change border color on hover */
+    margin-left: 7.5%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
 }

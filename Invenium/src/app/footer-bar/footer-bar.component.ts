@@ -8,10 +8,13 @@ import { Component } from '@angular/core';
   styleUrl: './footer-bar.component.css'
 })
 export class FooterBarComponent {
+  logoURL: string = 'assets/Logos/Instagram_Glyph_Gradient.png';
+  
   emailAddress: string = 'krmcintosh87@gmail.com';
   subject: string = 'Booking Inquiry';
   body: string = 'I hope this email finds you well. I am interesting in booking Invenium for an upcoming gig.';
   mailtoLink: string;
+
 
   constructor() {
     this.mailtoLink = `mailto:${this.emailAddress}?subject=${encodeURIComponent(this.subject)}&body=${encodeURIComponent(this.body)}`;

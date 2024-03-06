@@ -1,3 +1,6 @@
+#content-container {
+    margin: 2%;
+}
 #header-container {
     width: 98%;
     display: flex;

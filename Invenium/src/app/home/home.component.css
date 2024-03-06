@@ -1,0 +1,15 @@
+#videos, h1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+  /* Style for the title */
+  .title {
+    font-size: 5rem; /* Large font size */
+    font-weight: bold; /* Bold font weight */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Text shadow */
+    padding: 20px; /* Padding around the title */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+  }
+

@@ -3,9 +3,8 @@
     position: fixed;
     bottom: 0;
     padding-top: 0.75%;
-
-    border-radius: 10px; /* Adjust the value to change the roundness */
-    background-color: lightgrey; /* Set the background color */
+    height: 5%;
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 0.5%; /* Add padding for content */
 }
 

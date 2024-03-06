@@ -1,11 +1,6 @@
 <div id="content-container">
-    <div id="videos">
-        <video  controls>
-            <source *ngFor="let video of videos" [src]="video" type="video/mp4" class="video" >
-            Your browser does not support the video tag.
-        </video>
-    </div>
-    <div id="images">
+    <h2>The Highlights</h2>
+     <div id="images">
         <img *ngFor="let photo of allPhotos" [src]="photo" class="image">
     </div>
 </div>
